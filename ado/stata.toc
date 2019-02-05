@@ -1,0 +1,3 @@
+v 0.1
+d Ryan Kessler
+p 'leave_one_out_median': Stata module for computing leave-one-out median

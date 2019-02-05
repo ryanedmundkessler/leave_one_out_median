@@ -1,0 +1,10 @@
+d leave_one_out_median: Stata module for computing leave-one-out median
+d
+d Requires: Stata version 14
+d
+d Distribution-Date: 01262019
+d
+d Authors: Ryan Kessler
+d Contact: ryan.edmund.kessler@gmail.com
+d
+f leave_one_out_median.ado
