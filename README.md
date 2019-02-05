@@ -4,8 +4,8 @@
 ## Installation 
 
 ```stata
-cap ado uninstall estimate_supt_critical_value
-net install estimate_supt_critical_value, from("https://raw.githubusercontent.com/ryanedmundkessler/simultaneous_confidence_bands/master/ado/")
+cap ado uninstall leave_one_out_median
+net installl leave_one_out_median, from("https://raw.githubusercontent.com/ryanedmundkessler/leave_one_out_median/master/ado/")
 ```
 
 ## Example
