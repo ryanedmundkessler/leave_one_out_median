@@ -11,7 +11,7 @@ net installl leave_one_out_median, from("https://raw.githubusercontent.com/ryane
 
 ## Example
 
-Simple applications of leave_one_out_median can be found in [basic_functionality.do](./example/code/example.do)
+Simple applications of leave_one_out_median can be found in [example.do](./example/code/example.do)
 
 ## Unit Tests
 
