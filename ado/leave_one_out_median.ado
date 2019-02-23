@@ -4,7 +4,7 @@ program leave_one_out_median, sortpreserve
     local x = "`varlist'"
     if "`by'" == "" {
         tempvar by
-        gen byte `by' = 1 if !missing(`x') 
+        gen byte `by' = 1
     }
     
     tempvar x_min x_p50 x_max x_nobs by_val_no
@@ -32,5 +32,6 @@ program leave_one_out_median, sortpreserve
         if `x' == `x_p50' & mod(`x_nobs', 2) != 0 & !missing(`x')
     qui replace `generate' = `x_p50_no_max'                                     ///
         if `x' >  `x_p50' & mod(`x_nobs', 2) != 0 & !missing(`x')
-    qui replace `generate' = `x_p50' if missing(`x') 
-end 
+    qui replace `generate' = `x_p50'                                            ///
+        if missing(`x')
+end
