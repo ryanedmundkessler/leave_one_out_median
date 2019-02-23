@@ -14,6 +14,7 @@ net installl leave_one_out_median, from("https://raw.githubusercontent.com/ryane
 
 ## Unit Tests
 
+Unit tests assert basic functionality live in [basic_functionality.do](./test/code/basic_functionality.do)
 
 ## Authors 
 
