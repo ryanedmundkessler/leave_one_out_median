@@ -32,4 +32,5 @@ program leave_one_out_median, sortpreserve
         if `x' == `x_p50' & mod(`x_nobs', 2) != 0 & !missing(`x')
     qui replace `generate' = `x_p50_no_max'                                     ///
         if `x' >  `x_p50' & mod(`x_nobs', 2) != 0 & !missing(`x')
+    qui replace `generate' = `x_p50' if missing(`x') 
 end 
