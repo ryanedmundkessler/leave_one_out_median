@@ -19,9 +19,15 @@ Unit tests asserting basic functionality live in [basic_functionality.do](./test
 
 ## Authors 
 
+Sergey Egiev
+<br>Brown University
+
 Ryan Kessler
 <br>Brown University
 <br>Email: ryan.edmund.kessler@gmail.com
+
+Michael Sielski
+<br>Brown University
 
 ## License
 
