@@ -1,6 +1,6 @@
 # Computing leave-one-out median in Stata
 
-This repo houses a [Stata](https://www.stata.com/) function that computes, for each observation, the median of variable excluding the given observation 
+This repo houses a [Stata](https://www.stata.com/) function that computes, for each observation, the median of a given variable excluding the given observation 
 
 ## Installation 
 
